@@ -17,7 +17,7 @@ Run the DDXViewer.exe
 
 Now open any `.ddx` file and DDXViewer will open it automatically.
 
-![](https://s4.gifyu.com/images/demo03c86c01285bf644.gif)
+![](https://github.com/HalfDragonLucy/DDXViewer/blob/master/demo.gif)
 ## License / Requirements
 
 [MIT](https://github.com/HalfDragonLucy/DDXViewer/blob/master/LICENSE.txt)
