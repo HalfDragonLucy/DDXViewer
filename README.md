@@ -18,7 +18,7 @@ Run the DDXViewer.exe
 Now open any `.ddx` file and DDXViewer will open it automatically.
 
 ![](https://github.com/HalfDragonLucy/DDXViewer/blob/master/demo.gif)
-## License / Requirements
+## Requirements / License
 
 This program run in `.Net Framework 4.7.2` and is under the 
 [MIT](https://github.com/HalfDragonLucy/DDXViewer/blob/master/LICENSE.txt) license.
