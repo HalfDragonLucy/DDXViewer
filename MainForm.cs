@@ -1,5 +1,4 @@
-﻿using DDXViewer.Properties;
-using System;
+﻿using System;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.IO;
@@ -31,6 +30,10 @@ namespace DDXViewer
             if (arguments.Length > 1)
             {
                 CheckExtension(arguments[1], ".ddx");
+            }
+            else
+            {
+                Environment.Exit(0);
             }
         }
 
@@ -96,8 +99,6 @@ namespace DDXViewer
 
         private void CleanUp()
         {
-            Settings.Default.Save();
-
             displayImage?.Dispose();
             DisplayBox?.Dispose();
 
